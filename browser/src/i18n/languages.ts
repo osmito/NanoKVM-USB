@@ -8,7 +8,8 @@ const languages = [
   { key: 'be', name: 'België' },
   { key: 'ko', name: '한국어' },
   { key: 'pt_br', name: 'Português (Brasil)' },
-  { key: 'pl', name: 'Polski' }
+  { key: 'pl', name: 'Polski' },
+  { key: 'ja', name: '日本語' }
 ];
 
 languages.sort((a, b) => a.name.localeCompare(b.name, 'en', { sensitivity: 'base' }));
